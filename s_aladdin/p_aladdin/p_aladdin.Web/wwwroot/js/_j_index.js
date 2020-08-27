@@ -32,5 +32,7 @@ function v_add_user_()
         get s_pas_() { return document.getElementById('b_pas_').value; }    // Password
     };
 
+    alert('1');
+
     v_post_obj_('users/add', l_usr_, v_success_, v_error_);
 }
