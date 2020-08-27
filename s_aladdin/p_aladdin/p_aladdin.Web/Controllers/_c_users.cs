@@ -32,13 +32,6 @@ namespace p_aladdin
             return l_lst_;
         }
 
-        // uid  name
-        //
-        //
-
-        // 
-
-
         [HttpPost]
         [Route("add")]
         public string f_add_(_c_user p_usr_)
@@ -59,9 +52,5 @@ namespace p_aladdin
 
             return s_dal_.s_msg_;
         }
-
-        // U
-
-        // D
     }
 }
