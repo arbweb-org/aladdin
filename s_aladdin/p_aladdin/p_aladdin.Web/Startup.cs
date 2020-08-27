@@ -1,46 +1,29 @@
-﻿using System;
-using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using p_aladdin.Models;
+using Microsoft.EntityFrameworkCore;
 
-namespace p_aladdin.Web
+namespace p_aladdin
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
-        {
-            Configuration = configuration;
-        }
-
-        public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddSingleton<IItemRepository, ItemRepository>();
+            services.AddMvc(option => option.EnableEndpointRouting = false).SetCompatibilityVersion(CompatibilityVersion.Latest);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-            }
+            { app.UseDeveloperExceptionPage(); }
 
-            app.UseHttpsRedirection();
-            app.UseRouting();
+            app.UseFileServer();        // Serve static file            
+            app.UseMvc();               // Serve API functions
 
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
-            });
+            _c_db l_dal_ = new _c_db();
+            l_dal_.Database.EnsureCreated();
         }
     }
 }

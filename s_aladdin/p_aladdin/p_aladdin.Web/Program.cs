@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace p_aladdin.Web
+namespace p_aladdin
 {
     public class Program
     {
@@ -14,9 +12,9 @@ namespace p_aladdin.Web
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
+                .ConfigureWebHostDefaults(webBuilder => 
                 {
-                    webBuilder.UseStartup<Startup>();
+                    webBuilder.UseStartup<Startup>();                    
                 });
     }
 }
