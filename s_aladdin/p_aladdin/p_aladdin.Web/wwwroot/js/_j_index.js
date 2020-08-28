@@ -23,8 +23,6 @@ function v_error_(p_xhr_, p_sts_, p_msg_)
 
 function v_add_user_()
 {
-    alert('0');
-
     // We are declaring a NEW JSON object
     var l_usr_ =
     {
