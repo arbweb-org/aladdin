@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 
 namespace p_aladdin
@@ -7,6 +8,13 @@ namespace p_aladdin
     [ApiController]
     public class _c_products : Controller
     {
+        [HttpGet]
+        [Route("test")]
+        public string f_test_() 
+        {
+            return "Test: " + DateTime.Now.ToString();
+        }
+
         [HttpPost]
         [Route("list")]
         public List<_c_product> f_text_()
