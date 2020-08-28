@@ -2,6 +2,7 @@ D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\bin\Debug\netstandard
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\bin\Debug\netstandard2.0\p_aladdin.dll
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\bin\Debug\netstandard2.0\ref\p_aladdin.dll
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\bin\Debug\netstandard2.0\p_aladdin.pdb
+D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\obj\Debug\netstandard2.0\p_aladdin.csprojAssemblyReference.cache
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
 D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin\obj\Debug\netstandard2.0\Views\_c_home.xaml.g.cs

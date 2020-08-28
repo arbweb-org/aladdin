@@ -6,9 +6,11 @@
        Title="aladdin"
        x:Class="p_aladdin.AppShell">
 
-    <TabBar>
-        <Tab Title="Home">
-            <ShellContent ContentTemplate="{DataTemplate local:_c_home}" />
-        </Tab>
-    </TabBar>
+    <FlyoutItem Title="Home">
+        <ShellContent ContentTemplate="{DataTemplate local:_c_home}" />
+    </FlyoutItem>
+
+    <FlyoutItem  Title="About">
+        <ShellContent ContentTemplate="{DataTemplate local:_c_home}" />
+    </FlyoutItem>
 </Shell>
