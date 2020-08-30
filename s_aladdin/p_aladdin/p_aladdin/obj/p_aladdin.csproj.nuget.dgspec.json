@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {}
+    "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {}
   },
   "projects": {
-    "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
+    "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
+        "projectUniqueName": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
         "projectName": "p_aladdin",
-        "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
-        "packagesPath": "C:\\Users\\akcor\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\obj\\",
+        "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
+        "packagesPath": "C:\\Users\\Raber\\.nuget\\packages\\",
+        "outputPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\akcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Raber\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -80,7 +79,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

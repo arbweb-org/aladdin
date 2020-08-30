@@ -3430,24 +3430,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\akcor\\.nuget\\packages\\": {},
+    "C:\\Users\\Raber\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
+      "projectUniqueName": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
       "projectName": "p_aladdin.Android",
-      "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
-      "packagesPath": "C:\\Users\\akcor\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\obj\\",
+      "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
+      "packagesPath": "C:\\Users\\Raber\\.nuget\\packages\\",
+      "outputPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\akcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Raber\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3461,8 +3461,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
-              "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj"
+            "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
+              "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj"
             }
           }
         }

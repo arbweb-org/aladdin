@@ -78,5 +78,6 @@ namespace p_aladdin
             p_bld_.Entity<_c_user>().Property(p_ent_ => p_ent_.s_dat_).HasDefaultValueSql("getdate()");
         }
         #endregion
+        public virtual DbSet<_c_product> t_Products { get; set; }
     }
 }

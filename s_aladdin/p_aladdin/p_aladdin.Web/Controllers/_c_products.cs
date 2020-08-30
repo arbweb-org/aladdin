@@ -8,6 +8,8 @@ namespace p_aladdin
     [ApiController]
     public class _c_products : Controller
     {
+        _c_db s_dal_ = new _c_db();
+    
         [HttpGet]
         [Route("test")]
         public string f_test_() 
@@ -26,5 +28,26 @@ namespace p_aladdin
 
             return l_lst_;
         }
+        [HttpPost]
+        [Route("add")]
+        public string  f_add_(_c_product p_pro_)
+        {
+            _c_product l_pro_ = new _c_product
+            {
+                s_nam_ = p_pro_.s_nam_,
+                s_prc_ = p_pro_.s_prc_
+            };
+
+            s_dal_.f_open_();
+            s_dal_.t_Products.Add(l_pro_);
+
+            if (s_dal_.f_save_())
+            { s_dal_.f_close_(true); }
+            else
+            { s_dal_.f_close_(false); }
+
+            return s_dal_.s_msg_;
+        }
+
     }
 }

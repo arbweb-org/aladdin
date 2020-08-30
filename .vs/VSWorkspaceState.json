@@ -1,6 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\s_aladdin",
+    "\\s_aladdin\\p_aladdin",
+    "\\s_aladdin\\p_aladdin\\p_aladdin.Web",
+    "\\s_aladdin\\p_aladdin\\p_aladdin.Web\\wwwroot"
   ],
+  "SelectedNode": "\\s_aladdin\\p_aladdin\\p_aladdin.Web\\wwwroot\\Products.html",
   "PreviewInSolutionExplorer": false
 }
