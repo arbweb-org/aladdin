@@ -7,15 +7,9 @@ namespace p_aladdin
 {
     [Route("users")]
     [ApiController]
-    public class _c_users : Controller
+    public partial class _c_users : Controller
     {
         _c_db s_dal_ = new _c_db();
-
-        public class _c_page
-        {
-            public int s_skp_ { get; set; }
-            public int s_tak_ { get; set; }
-        }
 
         [HttpPost]
         [Route("list")]

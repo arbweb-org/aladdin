@@ -69,13 +69,18 @@ namespace p_aladdin
         #endregion
 
         #region "Tables"
-        public virtual DbSet<_c_user> t_users { get; set; }
+        public virtual DbSet<_c_user> t_users_ { get; set; }
+        public virtual DbSet<_c_product> t_products_ { get; set; }
+
         protected override void OnModelCreating(ModelBuilder p_bld_)
         {   // Make c_name column unique
             p_bld_.Entity<_c_user>().HasIndex(p_ent_ => p_ent_.s_nam_).IsUnique();
 
             // Default value for c_date column = now
-            p_bld_.Entity<_c_user>().Property(p_ent_ => p_ent_.s_dat_).HasDefaultValueSql("getdate()");
+            p_bld_.Entity<_c_user>()
+                .Property(p_ent_ => p_ent_.s_dat_).HasDefaultValueSql("getdate()");
+            p_bld_.Entity<_c_product>()
+                .Property(p_ent_ => p_ent_.s_dat_).HasDefaultValueSql("getdate()");
         }
         #endregion
     }
