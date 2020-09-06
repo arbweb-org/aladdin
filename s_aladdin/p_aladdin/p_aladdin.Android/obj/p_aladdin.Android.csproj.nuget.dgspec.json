@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj": {}
+    "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj": {}
   },
   "projects": {
-    "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj": {
+    "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
+        "projectUniqueName": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
         "projectName": "p_aladdin.Android",
-        "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
-        "packagesPath": "C:\\Users\\Raber\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\obj\\",
+        "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\p_aladdin.Android.csproj",
+        "packagesPath": "C:\\Users\\akcor\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\akcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
-                "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj"
+              "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
+                "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj"
               }
             }
           }
@@ -66,20 +66,21 @@
         }
       }
     },
-    "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
+    "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
+        "projectUniqueName": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
         "projectName": "p_aladdin",
-        "projectPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
-        "packagesPath": "C:\\Users\\Raber\\.nuget\\packages\\",
-        "outputPath": "C:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\obj\\",
+        "projectPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\p_aladdin.csproj",
+        "packagesPath": "C:\\Users\\akcor\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\arbweb-org\\aladdin\\s_aladdin\\p_aladdin\\p_aladdin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Raber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\akcor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -141,7 +142,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -32,13 +32,19 @@ function v_add_user_()
 
     v_post_obj_('users/add', l_usr_, v_success_, v_error_);
 }
-function v_add_product_() {
+
+function v_add_product_()
+{
+    var l_prc_ = parseFloat(document.getElementById('b_prc_').value);
+
     // We are declaring a NEW JSON object
     var l_pro_ =
     {
         get s_nam_() { return document.getElementById('b_nam_').value; },   // Name product
-        get s_prc_() { return document.getElementById('b_price_').value; }    // Pirce
+        get s_prc_() { return l_prc_; }                                     // Pirce
     };
+
+    alert(JSON.stringify(l_pro_));
 
     v_post_obj_('products/add', l_pro_, v_success_, v_error_);
 }

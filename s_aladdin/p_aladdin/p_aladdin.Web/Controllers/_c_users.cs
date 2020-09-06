@@ -24,7 +24,7 @@ namespace p_aladdin
             List<_c_user> l_lst_ = new List<_c_user>();
 
             s_dal_.f_open_();
-            l_lst_ = (from i_usr_ in s_dal_.t_users
+            l_lst_ = (from i_usr_ in s_dal_.t_users_
                       //orderby i_usr_.s_dat_ descending
                       select i_usr_).Skip(p_pag_.s_skp_).Take(p_pag_.s_tak_).ToArray().ToList();
             s_dal_.f_close_(true);
@@ -43,7 +43,7 @@ namespace p_aladdin
             };
 
             s_dal_.f_open_();
-            s_dal_.t_users.Add(l_usr_);
+            s_dal_.t_users_.Add(l_usr_);
 
             if (s_dal_.f_save_())
             { s_dal_.f_close_(true); }

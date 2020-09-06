@@ -23,6 +23,10 @@ namespace p_aladdin
             app.UseMvc();               // Serve API functions
 
             _c_db l_dal_ = new _c_db();
+            if (env.IsDevelopment())
+            {
+                l_dal_.Database.EnsureDeleted();
+            }
             l_dal_.Database.EnsureCreated();
         }
     }
