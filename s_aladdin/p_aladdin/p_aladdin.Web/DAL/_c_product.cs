@@ -17,6 +17,6 @@ namespace p_aladdin
         public string s_nam_ { get; set; }
 
         [Column("c_price")]         // Price
-        public double s_prc_ { set; get; }
+        public decimal s_prc_ { set; get; }
     }
 }
