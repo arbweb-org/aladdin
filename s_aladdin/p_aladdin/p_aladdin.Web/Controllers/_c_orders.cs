@@ -14,8 +14,6 @@ namespace p_aladdin
         {
             List<_c_product> l_lst_ = new List<_c_product>();
 
-
-
             return l_lst_;
         }
     }

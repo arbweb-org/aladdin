@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
-using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace p_aladdin
 {
@@ -25,7 +25,6 @@ namespace p_aladdin
 
             s_dal_.f_open_();
             l_lst_ = (from i_usr_ in s_dal_.t_users
-                      //orderby i_usr_.s_dat_ descending
                       select i_usr_).Skip(p_pag_.s_skp_).Take(p_pag_.s_tak_).ToArray().ToList();
             s_dal_.f_close_(true);
 
