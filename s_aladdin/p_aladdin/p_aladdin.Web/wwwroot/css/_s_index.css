@@ -1,6 +1,43 @@
-﻿/*.top-bar .top-bar-section li {
-    display: table-cell;
-    width: auto;
-    text-align: center;
-    float: none;
-}*/
+﻿@font-face 
+{
+    font-family: 'Noto';
+    src: url('/fnt/NotoSans-Regular.woff') format('woff')
+}
+
+@font-face 
+{
+    font-family: 'Noto-Arabic';
+    src: url('/fnt/NotoSansArabic-Regular.woff') format('woff')
+}
+
+html *
+{
+    font-family: 'Noto', 'Noto-Arabic';
+}
+
+._c_zero
+{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+@media (min-width: 1000px)
+{
+    ._c_hidden_lg
+    {
+        display: none !important;
+    }
+}
+
+@media (max-width: 1000px) 
+{
+    ._c_visible_lg
+    {
+        display: none !important;
+    }
+}
+
+._c_w100 {
+    width: 100%;
+    max-width: 100%
+}

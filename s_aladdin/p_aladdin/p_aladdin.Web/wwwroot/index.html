@@ -3,15 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
     <title>الويب العربي</title>
-    <link rel="stylesheet" href="css/foundation-rtl.css" />
-    <link rel="stylesheet" href="css/_s_index.css" />
+    <!-- Starting the relative url with "/" makes it difficult
+        to test from directory directly -->
+    <link rel="stylesheet" href="/css/foundation-rtl.css" />
+    <link rel="stylesheet" href="/css/_s_index.css" />
 </head>
 
 <body onresize="v_resize_()" style="padding:0px; margin:0px">
-    <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <!--<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
         <button class="menu-icon" type="button" data-toggle="example-menu"></button>
         <div class="title-bar-title"></div>
     </div>
@@ -34,19 +37,49 @@
                 <li><span>🔍</span></li>
             </ul>
         </div>
+    </div>-->
+
+    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="b_top_"></button>
+        <div class="title-bar-title">الويب العربي</div>
     </div>
 
-    <hr style="width:100%; max-width:100%" />
+    <div class="top-bar" id="b_top_"
+         style=" border-bottom-style: solid; border-bottom-color: silver; border-bottom-width: 1px; background-color:white">
 
+        <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu style="background-color: white">
+                <li><img src="img/store.png" style="height:2.4rem" /></li>
+
+                <li class="has-submenu">
+                    <a href="#0">One</a>
+                    <ul class="submenu menu vertical" data-submenu>
+                        <li><a href="#0">One</a></li>
+                        <li><a href="#0">Two</a></li>
+                        <li><a href="#0">Three</a></li>
+                    </ul>
+                </li>
+                <li><a href="#0">Two</a></li>
+                <li><a href="#0">Three</a></li>
+            </ul>
+        </div>
+
+        <div class="top-bar-right">
+            <ul class="menu" style="background-color: white">
+                <li><input type="search" placeholder="بحث في الموقع"></li>
+                <li><button type="button" class="button">بحث</button></li>
+            </ul>
+        </div>
+    </div>
     <!--End of Dom-->
 
-    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+    <!-- Starting the relative url with "/" makes it difficult
+        to test from directory directly -->
+    <script src="/js/jquery.js"></script>
+    <script src="/js/what-input.js"></script>
+    <script src="/js/foundation.js"></script>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/what-input.js"></script>
-    <script src="js/foundation.js"></script>
-
-    <script src="js/_j_post.js"></script>
-    <script src="js/_j_index.js"></script>
+    <script src="/js/_j_post.js"></script>
+    <script src="/js/_j_index.js"></script>
 </body>
 </html>
