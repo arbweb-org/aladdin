@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html class="no-js" lang="ar" dir="rtl" style="padding:0px; margin:0px">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,79 +7,116 @@
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 
     <title>الويب العربي</title>
-    <!-- Starting the relative url with "/" makes it difficult
-        to test from directory directly -->
-    <link rel="stylesheet" href="/css/foundation-rtl.css" />
+
+    <link rel="stylesheet" href="/uikit_3_5_7/css/uikit-rtl.min.css" />
     <link rel="stylesheet" href="/css/_s_index.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
 </head>
 
-<body onresize="v_resize_()" style="padding:0px; margin:0px">
-    <!--<div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="example-menu"></button>
-        <div class="title-bar-title"></div>
-    </div>
-
-    <div class="top-bar vertical medium-horizontal large-horizontal" id="example-menu" style="background-color:white">
-        <div class="top-bar-left">
-            <ul class="menu align-middle" style="background-color:white">
-                <li><img src="img/store.png" style="height:4em" /></li>
-            </ul>
-        </div>
-
-        <div class="top-bar-right">
-            <ul class="menu align-middle" style="background-color:white">
-                <li><a href="#">الرئيسية</a></li>
-                <li><a href="#">العربة</a></li>
-                <li><a href="#">المفضلة</a></li>
-                <li><a href="register.html">حسابي</a></li>
-
-                <li><input type="search" placeholder="اكتب كلمة البحث"></li>
-                <li><span>🔍</span></li>
-            </ul>
-        </div>
-    </div>-->
-
-    <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-        <button class="menu-icon" type="button" data-toggle="b_top_"></button>
-        <div class="title-bar-title">الويب العربي</div>
-    </div>
-
-    <div class="top-bar" id="b_top_"
-         style=" border-bottom-style: solid; border-bottom-color: silver; border-bottom-width: 1px; background-color:white">
-
-        <div class="top-bar-left">
-            <ul class="dropdown menu" data-dropdown-menu style="background-color: white">
-                <li><img src="img/store.png" style="height:2.4rem" /></li>
-
-                <li class="has-submenu">
-                    <a href="#0">One</a>
-                    <ul class="submenu menu vertical" data-submenu>
-                        <li><a href="#0">One</a></li>
-                        <li><a href="#0">Two</a></li>
-                        <li><a href="#0">Three</a></li>
-                    </ul>
+<body onresize="v_resize_()">
+    <!-- Small, sidebar -->
+    <div id="b_sid_" uk-offcanvas="flip: true" class="uk-offcanvas">
+        <div class="uk-offcanvas-bar">
+            <ul class="uk-nav">
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: home"></span>
+                        الرئيسية
+                    </a>
                 </li>
-                <li><a href="#0">Two</a></li>
-                <li><a href="#0">Three</a></li>
-            </ul>
-        </div>
 
-        <div class="top-bar-right">
-            <ul class="menu" style="background-color: white">
-                <li><input type="search" placeholder="بحث في الموقع"></li>
-                <li><button type="button" class="button">بحث</button></li>
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: question"></span>
+                        الدعم
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: user"></span>
+                        حسابي
+                    </a>
+                </li>
+
+                <li style="margin-top:1rem">
+                    <form class="uk-search uk-search-default _c_w100">
+                        <span class="uk-search-icon-flip" uk-search-icon></span>
+                        <input class="uk-search-input" type="search" placeholder="إبحث">
+                    </form>
+                </li>
             </ul>
         </div>
     </div>
-    <!--End of Dom-->
 
+    <!-- Start of header: top navbar-->
+    <nav class="uk-navbar-container-transparent" uk-navbar style="border-bottom: 1px solid silver">
+        <div class="uk-navbar-right">
+            <a class="uk-navbar-toggle uk-hidden@m" uk-toggle="target: #b_sid_" uk-navbar-toggle-icon></a>
+
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src="/img/store.png" style="height:2.4rem" />
+            </a>
+        </div>
+
+        <div class="uk-navbar-left uk-visible@m">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: home"></span>
+                        الرئيسية
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: question"></span>
+                        الدعم
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-left" uk-icon="icon: user"></span>
+                        حسابي
+                    </a>
+                </li>
+            </ul>
+
+            <div class="uk-navbar-item">
+                <form class="uk-search uk-search-default _c_w100">
+                    <span class="uk-search-icon-flip" uk-search-icon></span>
+                    <input class="uk-search-input" type="search" placeholder="إبحث">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of heder -->
+
+    <!-- Start of body -->
+    <br />
+    <div class="uk-grid-collapse _c_categories" uk-grid>
+        <iframe class="uk-width-1-1 uk-width-1-4@xl uk-width-1-4@l uk-width-1-2@m uk-width-1-2@s; uk-height-viewport" src="widgets/services.html"></iframe>
+
+        <iframe class="uk-width-1-1 uk-width-1-4@xl uk-width-1-4@l uk-width-1-2@m uk-width-1-2@s; uk-height-viewport" src="widgets/products.html"></iframe>
+
+        <iframe class="uk-width-1-1 uk-width-1-4@xl uk-width-1-4@l uk-width-1-2@m uk-width-1-2@s; uk-height-viewport" src="widgets/training.html"></iframe>
+
+        <iframe class="uk-width-1-1 uk-width-1-4@xl uk-width-1-4@l uk-width-1-2@m uk-width-1-2@s; uk-height-viewport" src="widgets/store.html"></iframe>
+    </div>
+    <!-- End of body -->
+
+    <!-- Footer -->
+    <!-- End of footer -->
+    <!-- End of DOM -->
     <!-- Starting the relative url with "/" makes it difficult
         to test from directory directly -->
     <script src="/js/jquery.js"></script>
-    <script src="/js/what-input.js"></script>
-    <script src="/js/foundation.js"></script>
+    <script src="/uikit_3_5_7/js/uikit.min.js"></script>
 
     <script src="/js/_j_post.js"></script>
     <script src="/js/_j_index.js"></script>
+
+    <script type="text/javascript"></script>
 </body>
 </html>

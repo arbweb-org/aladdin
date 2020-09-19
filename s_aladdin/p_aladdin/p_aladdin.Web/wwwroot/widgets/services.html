@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" href="/uikit_3_5_7/css/uikit-rtl.min.css" />
+    <link rel="stylesheet" href="/css/_s_index.css" />
+    <link rel="stylesheet" href="/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div class="_c_category" style="background-color: mistyrose">
+        <div style="font-size: 1.5rem; text-align:center">
+            <span class="fas fa-tools"></span>
+            الخدمات
+        </div>
+
+        <img style="margin-top: 0.8rem; width: 100%" src="/widgets/img/1/4.png" />
+        <p class="_c_category_caption">&nbsp;حجز أسماء النطاقات</p>
+        <ul style="margin:0em; padding: 1em">
+            <li>أسماء نطاقات عربية وأجنبية</li>
+            <li>دعم مجاني 24 / 7</li>
+            <li>متاح دعم باللغة العربية</li>
+            <li>متاح الدفع بالعملة المحلية</li>
+            <li>بسعر يبدأ من 0.88$</li>
+        </ul>
+
+        <div>
+            <form id="ir_form" method="get" target="_blank" enctype="application/x-www-form-urlencoded" action="https://namecheap.pxf.io/c/2478229/386170/5618">
+                <input id="ir_link" name="u" type="hidden" />
+                <input class="uk-input uk-width-3-5" id="ir_domain" name="domain" placeholder="مثال: drop.io" spellcheck="false" autocomplete="off" autocorrect="off" autocapitalize="off" type="text" />
+                <input class="uk-input uk-width-1-4 uk-button-primary" value="إبحث" type="submit" />
+            </form>
+        </div>
+        <br />
+    </div>
+    <!-- End of Dom -->
+
+    <!-- Starting the relative url with "/" makes it difficult
+        to test from directory directly -->
+    <script src="/js/jquery.js"></script>
+    <script src="/uikit_3_5_7/js/uikit.min.js"></script>
+
+    <script src="/js/_j_post.js"></script>
+    <script src="/js/_j_index.js"></script>
+
+    <script>
+        var e = document.querySelector("#ir_form"),
+            n = document.querySelector("#ir_domain"),
+            t = document.querySelector("#ir_link");
+
+        e.addEventListener("submit",
+            function (o) {
+                o.preventDefault();
+                t.value = "https://www.namecheap.com/domains/registration/results.aspx?domain=" + encodeURI(n.value);
+                if (e.domain.value === "") { } else { e.submit(); }
+            });
+    </script>
+</body>
+</html>

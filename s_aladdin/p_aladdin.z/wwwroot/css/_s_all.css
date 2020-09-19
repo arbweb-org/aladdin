@@ -1,0 +1,46 @@
+﻿@font-face 
+{
+    font-family: 'Noto';
+    src: url('/fnt/NotoSans-Regular.woff') format('woff')
+}
+
+@font-face
+{
+    font-family: 'Noto-Arabic';
+    src: url('/fnt/NotoSansArabic-Regular.woff') format('woff')
+}
+
+html *
+{
+    font-family: 'Noto', 'Noto-Arabic';
+}
+
+iframe
+{
+    overflow: hidden;
+}
+
+/* Tiny */
+@media (max-device-width: 639px)
+{
+}
+
+/* Small */
+@media (min-device-width: 640px)
+{
+}
+
+/* Medium */
+@media (min-device-width: 960px)
+{
+}
+
+/* Large */
+@media (min-device-width: 1200px)
+{
+}
+
+/* XLarge */
+@media (min-device-width: 1600px)
+{
+}

@@ -1,0 +1,4 @@
+D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin.Web\obj\Debug\netcoreapp3.1\p_aladdin.Web.AssemblyInfoInputs.cache
+D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin.Web\obj\Debug\netcoreapp3.1\p_aladdin.Web.AssemblyInfo.cs
+D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin.Web\obj\Debug\netcoreapp3.1\p_aladdin.Web.csproj.CoreCompileInputs.cache
+D:\Github\arbweb-org\aladdin\s_aladdin\p_aladdin\p_aladdin.Web\obj\Debug\netcoreapp3.1\p_aladdin.Web.MvcApplicationPartsAssemblyInfo.cache
